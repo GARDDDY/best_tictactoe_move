@@ -31,3 +31,16 @@ Then comes a simple conditional construction.
 * If there is neither this nor that, then it doesn’t matter where to go, but if there is a combination with a rating of 1, then there is still the most reasonable move.
 
 That's all! I hope everything is clear
+
+# Comparison of code performance with tic tac toe from Google
+![G1](https://github.com/GARDDDY/best_tictactoe_move/assets/57499798/dd3adbd5-7de3-44f8-aaff-6e3248ca25c3)
+![C1](https://github.com/GARDDDY/best_tictactoe_move/assets/57499798/461d3b99-f5c9-4cec-a19c-44dd6c0fc4e2)
+
+Here the moves are different, but in this situation it really doesn't matter where to go. Top to first or bottom to first
+![G2](https://github.com/GARDDDY/best_tictactoe_move/assets/57499798/ad4cd868-b247-4867-9992-c8b4d519f66b)
+![C2](https://github.com/GARDDDY/best_tictactoe_move/assets/57499798/15949983-7dce-4591-9fe0-31c00acf52e9)
+
+In this case, I repeated the move that Google made. My code outputted the best move between two crosses - the same move as Google found
+
+You can test my code yourself with other cases
+
